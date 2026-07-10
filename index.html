@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CASEFILE — Personal Security Knowledgebase</title>
+<meta name="description" content="Personal security methodologies, payloads, and field notes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="brand">CASE<span class="dot">/</span>FILE</div>
+      <div class="brand-tagline">Personal security knowledgebase — methodologies, payloads &amp; field notes.</div>
+    </div>
+    <div class="sidebar-search">
+      <div class="sidebar-search-box">
+        <span class="prompt">$</span>
+        <input type="text" id="searchInput" placeholder="grep -r &quot;...&quot;" autocomplete="off">
+      </div>
+      <div class="search-results" id="searchResults"></div>
+    </div>
+    <nav class="sidebar-nav" id="sidebarNav"></nav>
+    <div class="sidebar-footer">
+      <a href="#/">&larr; Index</a>
+      <a href="admin.html" target="_blank">Admin &#9998;</a>
+    </div>
+  </aside>
+
+  <div class="main">
+    <div class="topbar">
+      <button class="menu-toggle" id="menuToggle">&#9776;</button>
+      <div class="brand" style="font-size:15px;">CASE<span class="dot">/</span>FILE</div>
+    </div>
+    <main class="content" id="content"></main>
+  </div>
+</div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/markdown.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
