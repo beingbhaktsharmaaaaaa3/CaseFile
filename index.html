@@ -27,7 +27,7 @@
     <nav class="sidebar-nav" id="sidebarNav"></nav>
     <div class="sidebar-footer">
       <a href="#/">&larr; Index</a>
-      <a href="admin.html" target="_blank">Admin &#9998;</a>
+      <span id="repoLinkSlot"></span>
     </div>
   </aside>
 
@@ -40,8 +40,15 @@
   </div>
 </div>
 
-<script src="assets/js/data.js"></script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/nav-data.js"></script>
 <script src="assets/js/markdown.js"></script>
 <script src="assets/js/app.js"></script>
+<script>
+  if (window.SITE_CONFIG && window.SITE_CONFIG.githubRepoUrl) {
+    document.getElementById('repoLinkSlot').innerHTML =
+      '<a href="' + window.SITE_CONFIG.githubRepoUrl + '" target="_blank">Repo &#8599;</a>';
+  }
+</script>
 </body>
 </html>
