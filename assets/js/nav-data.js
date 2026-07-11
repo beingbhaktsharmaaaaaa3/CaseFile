@@ -6479,7 +6479,7 @@ window.SITE_DATA = {
      "slug": "pentesting-web-file-inclusion",
      "type": "page",
      "contentPath": "content/pentesting-web/file-inclusion/README.md",
-     "hasContent": false,
+     "hasContent": true,
      "children": [
       {
        "title": "LFI2RCE Via compress.zlib + PHP_STREAM_PREFER_STUDIO + Path Disclosure",
