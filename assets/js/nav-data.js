@@ -6044,7 +6044,7 @@ window.SITE_DATA = {
    "slug": "pentesting-web",
    "type": "category",
    "color": "#FFB347",
-   "children": [
+   "children": [ {"title": "Bug Bounty Master Guide", "slug": "bug-bounty-master-guide", "type": "page", "tag": "TAG-BB01", "contentPath": "content/pentesting-web/bug-bounty-master-guide.md", "hasContent": true, "children": []},
     {
      "title": "2FA/MFA/OTP Bypass",
      "slug": "pentesting-web-2fa-bypass",
