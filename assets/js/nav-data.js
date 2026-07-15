@@ -6480,7 +6480,7 @@ window.SITE_DATA = {
      "type": "page",
      "contentPath": "content/pentesting-web/file-inclusion/README.md",
      "hasContent": true,
-     "children": [
+     "children": [ {"title": "Path Traversal Master Guide", "slug": "path-traversal-master-guide", "type": "page", "tag": "TAG-0989", "contentPath": "content/pentesting-web/file-inclusion/path-traversal-master-guide.md", "hasContent": true, "children": []},
       {
        "title": "LFI2RCE Via compress.zlib + PHP_STREAM_PREFER_STUDIO + Path Disclosure",
        "slug": "pentesting-web-file-inclusion-lfi2rce-via-compress-zlib-php-stream-prefer-studio-path-disclosure",
